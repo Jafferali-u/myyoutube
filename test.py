@@ -5,3 +5,6 @@ import os
 subprocess.Popen(["firefox", "https://youtu.be/sQSbsBu2gCU"])
 time.sleep(150)
 os.system('pkill firefox')
+subprocess.Popen(["firefox", "https://youtu.be/Q_ICerggIpI"])
+time.sleep(250)
+os.system('pkill firefox')
