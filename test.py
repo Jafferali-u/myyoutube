@@ -38,4 +38,6 @@ os.system('pkill firefox')
 subprocess.Popen(["firefox", "https://youtu.be/E9Fxg8f3rJM"])
 time.sleep(200)
 os.system('pkill firefox')
-
+subprocess.Popen(["firefox", "https://youtu.be/eLz0tFnEQtg"])
+time.sleep(200)
+os.system('pkill firefox')
