@@ -2,7 +2,7 @@ import time
 import subprocess
 import os
 
-for i in range(2):
+for i in range(5):
   subprocess.Popen(["firefox", "https://youtu.be/sQSbsBu2gCU"])
   time.sleep(150)
   os.system('pkill firefox')
